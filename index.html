@@ -23,7 +23,7 @@
     </style>
 </head>
 <body class="roboto-regular">
-    <header class="pt-10 px-32 bg-[#FFFBF0]" id="home">
+    <header class="px-4 lg:pt-10 lg:px-32 bg-[#FFFBF0]" id="home">
         <nav class="flex justify-between">
             <div>
                 <img src="./icons/logo.png" class="w-64">
@@ -34,7 +34,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                     </svg>                      
                 </div>
-                <ul type="none" class="flex gap-6 sm:hidden">
+                <ul type="none" class="hidden lg:flex gap-6">
                     <li>
                         <a href="#home">Home</a>
                     </li>
@@ -50,9 +50,9 @@
                 </ul>
             </div>
         </nav>
-        <section class="flex py-3 gap-[9rem] sm:flex-col">
-            <div class="w-1/2">
-                <h1 class="uppercase text-[5rem] bebas-neue-regular text-[#FABE4C]">BE THE PENGUINS<br> <span class="text-[#363958]">Of winter</span></h1>
+        <section class="flex flex-col gap-6 lg:flex-row py-3 lg:gap-[9rem]">
+            <div class="w-full lg:w-1/2">
+                <h1 class="uppercase text-[3.9rem] bebas-neue-regular text-[#FABE4C] lg:text-[5rem]">BE THE PENGUINS<br> <span class="text-[#363958]">Of winter</span></h1>
                 <p class="text-[#3E3E3E] text-lg py-3 w-3/4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem temporibus iste fugit, aut eum vitae unde est aliquid dolore ut!</p>
                 <button class="inline-flex gap-2 text-white uppercase text-lg py-5 px-8
                 rounded-xl bg-gradient-to-r from-[#9bb439] to-[#768f12]">
@@ -69,15 +69,15 @@
         </section>
     </header>
     <main>
-        <section class="bebas-neue-regular py-16 mx-36" id="product">
+        <section class="bebas-neue-regular mx-4 lg:py-16 lg:mx-36" id="product">
             <div class="pb-10">
-                <h3 class="text-[#363958] text-5xl pb-9 sm:text-center">WOMAN JACKET</h3>
-                <div class="flex gap-5 sm: flex-col">
-                    <div class="w-[370px] p-4 rounded-2xl shadow-md">
-                        <div class="p-5 rounded-2xl bg-[#F1F1F1] w-[334px]">
-                            <img src="./images/jacket-1.png" class="w-[293px] h-[293px]">
+                <h3 class="text-[#363958] text-5xl text-center lg:pb-9 lg:text-left">WOMAN JACKET</h3>
+                <div class="flex flex-col lg:flex-row gap-5">
+                    <div class="w-[343px] rounded-2xl shadow-md lg:w-[370px] p-4">
+                        <div class="rounded-2xl bg-[#F1F1F1] lg:p-5 lg:w-[334px]">
+                            <img src="./images/jacket-1.png" class="w-[293px] h-[293px] p-4">
                         </div>
-                        <h4 class="text-[#363958] text-2xl">Yellow Coat JACKET</h4>
+                        <h4 class="text-[#363958] text-2xl pt-5">Yellow Coat JACKET</h4>
                         <p class="text-xl text-[#3E3E3E] roboto-regular my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda molestias sit nobis dignissimos reprehenderit ratione.</p>
                         <div class="flex items-baseline justify-between">
                             <h3 class="text-[#FABE4C] text-4xl">$234</h3>
@@ -91,11 +91,11 @@
                     </button>
                         </div>
                     </div>
-                    <div class="w-[370px] p-4 rounded-2xl shadow-md">
-                        <div class="p-5 rounded-2xl bg-[#F1F1F1] w-[334px]">
-                            <img src="./images/jacket-2.png" class="w-[293px] h-[293px]">
+                    <div class="w-[343px] rounded-2xl shadow-md lg:w-[370px] p-4">
+                        <div class="rounded-2xl bg-[#F1F1F1] lg:p-5 lg:w-[334px]">
+                            <img src="./images/jacket-2.png" class="w-[293px] h-[293px] p-4">
                         </div>
-                        <h4 class="text-[#363958] text-2xl">Ladies JACKET</h4>
+                        <h4 class="text-[#363958] text-2xl pt-5">Ladies JACKET</h4>
                         <p class="text-xl text-[#3E3E3E] roboto-regular my-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad inventore ducimus nobis quo id vitae?</p>
                         <div class="flex items-baseline justify-between">
                             <h3 class="text-[#FABE4C] text-4xl">$234</h3>
@@ -109,11 +109,11 @@
                     </button>
                         </div>
                     </div>
-                    <div class="w-[370px] p-4 rounded-2xl shadow-md">
-                        <div class="p-5 rounded-2xl bg-[#F1F1F1] w-[334px]">
-                            <img src="./images/jacket-3.png"class="w-[293px] h-[293px]">
+                    <div class="w-[343px] rounded-2xl shadow-md lg:w-[370px] p-4">
+                        <div class="rounded-2xl bg-[#F1F1F1] lg:p-5 lg:w-[334px]">
+                            <img src="./images/jacket-3.png"class="w-[293px] h-[293px] p-4">
                         </div>
-                        <h4 class="text-[#363958] text-2xl">Woman Leather Jacket </h4>
+                        <h4 class="text-[#363958] text-2xl pt-5">Woman Leather Jacket </h4>
                         <p class="text-xl text-[#3E3E3E] roboto-regular my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse libero nostrum minus laudantium, iste voluptatibus!</p>
                         <div class="flex items-baseline justify-between">
                             <h3 class="text-[#FABE4C] text-4xl">$234</h3>
@@ -130,13 +130,13 @@
                 </div>
             </div>
             <div>
-                <h3 class="text-[#363958] text-5xl pb-9 sm:text-center">MEN JACKET</h3>
-                <div class="flex gap-5 sm:flex-col">
-                    <div class="w-[370px] p-4 rounded-2xl shadow-md">
-                        <div class="p-5 rounded-2xl bg-[#F1F1F1] w-[334px]">
-                            <img src="./images/jacket-4.png" class="w-[293px] h-[293px]">
+                <h3 class="text-[#363958] text-5xl text-center lg:pb-9 lg:text-left">MEN JACKET</h3>
+                <div class="flex flex-col lg:flex-row gap-5">
+                    <div class="w-[343px] rounded-2xl shadow-md lg:w-[370px] p-4">
+                        <div class="rounded-2xl bg-[#F1F1F1] lg:p-5 lg:w-[334px]">
+                            <img src="./images/jacket-4.png" class="w-[293px] h-[293px] p-4">
                         </div>
-                        <h4 class="text-[#363958] text-2xl">Snowboard Jacket Mens</h4>
+                        <h4 class="text-[#363958] text-2xl pt-5">Snowboard Jacket Mens</h4>
                         <p class="text-xl text-[#3E3E3E] roboto-regular my-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis nihil vero illo nostrum, dignissimos omnis.</p>
                         <div class="flex items-baseline justify-between">
                             <h3 class="text-[#FABE4C] text-4xl">$234</h3>
@@ -150,11 +150,11 @@
                             </button>
                         </div>
                     </div>
-                    <div class="w-[370px] p-4 rounded-2xl shadow-md">
-                        <div class="p-5 rounded-2xl bg-[#F1F1F1] w-[334px]">
-                            <img src="./images/jacket-5.png" class="w-[293px] h-[293px]">
+                    <div class="w-[343px] rounded-2xl shadow-md lg:w-[370px] p-4">
+                        <div class="rounded-2xl bg-[#F1F1F1] lg:p-5 lg:w-[334px]">
+                            <img src="./images/jacket-5.png" class="w-[293px] h-[293px] p-4">
                         </div>
-                        <h4 class="text-[#363958] text-2xl">Man Casual Jackets </h4>
+                        <h4 class="text-[#363958] text-2xl pt-5">Man Casual Jackets </h4>
                         <p class="text-xl text-[#3E3E3E] roboto-regular my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime beatae nam qui. Ut, iusto.</p>
                         <div class="flex items-baseline justify-between">
                             <h3 class="text-[#FABE4C] text-4xl">$234</h3>
@@ -168,11 +168,11 @@
                     </button>
                         </div>
                     </div>
-                    <div class="w-[370px] p-4 rounded-2xl shadow-md">
-                        <div class="p-5 rounded-2xl bg-[#F1F1F1] w-[334px]">
-                            <img src="./images/jacket-6.png" class="w-[293px] h-[293px]">
+                    <div class="w-[343px] rounded-2xl shadow-md lg:w-[370px] p-4">
+                        <div class="rounded-2xl bg-[#F1F1F1] lg:p-5 lg:w-[334px]">
+                            <img src="./images/jacket-6.png" class="w-[293px] h-[293px] p-4">
                         </div>
-                        <h4 class="text-[#363958] text-2xl">Man Leather Jackets</h4>
+                        <h4 class="text-[#363958] text-2xl pt-5">Man Leather Jackets</h4>
                         <p class="text-xl text-[#3E3E3E] roboto-regular my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure repellendus quasi quam voluptatem distinctio aliquam?</p>
                         <div class="flex items-baseline justify-between">
                             <h3 class="text-[#FABE4C] text-4xl">$234</h3>
@@ -190,8 +190,50 @@
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer id="about" class="mx-4">
+        <section class="lg:flex-row flex flex-col-reverse pt-16 gap-16">
+            <div>
+                <div class="flex flex-col gap-9">
+                    <div class="lg:flex-row gap-9 rounded-2xl shadow-lg flex flex-col text-center lg:text-left px-6 py-8">
+                        <div class="mx-auto">
+                            <img src="./icons/house.png" class="w-20">
+                        </div>
+                        <div>
+                            <h4 class="text-[#363958] text-[1.5rem]">Find the Perfect Fit</h4>
+                            <p class="text-[#3E3E3E] text-lg">Everybody is different, which is why we
+                                offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <div class="lg:flex-row gap-9 rounded-2xl shadow-lg flex flex-col text-center lg:text-left px-6 py-8">
+                        <div class="mx-auto">
+                            <img src="./icons/box.png" class="w-20">
+                        </div>
+                        <div>
+                            <h4 class="text-[#363958] text-[1.5rem]">Free Exchanges</h4>
+                            <p class="text-[#3E3E3E] text-lg">One of the many reasons you can shop
+                                with peace of mind.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="lg:flex-row gap-9 rounded-2xl shadow-lg flex flex-col text-center lg:text-left px-6 py-8" id="contact">
+                        <div class="mx-auto">
+                            <img src="./icons/question.png" class="w-20">
+                        </div>
+                        <div>
+                            <h4 class="text-[#363958] text-[1.5rem]">Contact Our Seller   
+                            </h4>
+                            <p class="text-[#3E3E3E] text-lg">
+                                They are here to help you. That's quite 
+                                literally what we pay them for.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="./images/shopping.png" alt="">
+            </div>
+        </section>
     </footer>
 </body>
 </html>
